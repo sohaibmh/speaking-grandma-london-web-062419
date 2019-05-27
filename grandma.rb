@@ -8,7 +8,7 @@ end
 
 def speak_to_grandma(speak_to_grandma)
   if speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
-    puts "I LOVE YOU TOO PUMPKIN!"
+    "I LOVE YOU TOO PUMPKIN!"
   elsif speak_to_grandma != speak_to_grandma.upcase
     puts "HUH?! SPEAK UP, SONNY!"
   else speak_to_grandma == speak_to_grandma.upcase && speak_to_grandma != "I LOVE YOU GRANDMA!"
